@@ -1,0 +1,4 @@
+{
+    "command": "pytest",
+    "working_directory": "/home/kavia/workspace/code-generation/imagetransform-pro-55139-a1eed0c4/image_processing_backend_workspace/image_processing_backend"
+}
