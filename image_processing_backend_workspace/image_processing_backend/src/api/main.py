@@ -8,6 +8,12 @@ from typing import Literal
 
 from .utils import process_image, SUPPORTED_FILTERS
 
+import sys
+print("Python version:", sys.version)
+print("Working DIR:", os.getcwd())
+print("Uploads DIR:", os.path.join(os.path.dirname(__file__), "../uploads/"))
+print("Processed DIR:", os.path.join(os.path.dirname(__file__), "../processed/"))
+
 BASE_UPLOADS_DIR = os.path.join(os.path.dirname(__file__), "../uploads/")
 BASE_PROCESSED_DIR = os.path.join(os.path.dirname(__file__), "../processed/")
 
